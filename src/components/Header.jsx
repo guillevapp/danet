@@ -28,12 +28,13 @@ export const Header = () => {
       >
         <div className='container mx-auto py-1 px-6 md:px-8'>
           <div className='flex justify-between items-center'>
-            <spam
+            <NavLink
+              to={"/"}
               className='flex items-center p-0 m-0 self-center font-bold text-gray-800 cursor-pointer select-none transition-transform hover:scale-90'
             >
               <img src={danet} className='h-16' alt='Numeria' />
               Danet
-            </spam>
+            </NavLink>
             <div className='hidden md:block'>
               <ul className='flex items-center space-x-4'>
                 <li>
